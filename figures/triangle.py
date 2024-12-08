@@ -8,6 +8,8 @@ def area(a, h):
     '''
     if a < 0 or h < 0:
         return -1
+    if a == 0 or h == 0:
+        return 0
 
     return a * h / 2
 
@@ -20,7 +22,10 @@ def perimeter(a, b, c):
         Параметры: a, b, c (int): размер сторон треугольника
         Возвращаемое значение: a + b + c (int): периметр треугольника
     '''
-    if a < 0 or b < 0 or c < 0:
+    if a == b == c == 0:
+        return 0
+
+    if (a < 0 or b < 0 or c < 0) or (a + b <= c or a + c <= b or b + c <= a):
         return -1
 
     return a + b + c
