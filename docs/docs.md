@@ -2,22 +2,30 @@
 
 ### Файловая структура библиотеки:
 
-    ├── circle.py
-    ├── square.py
-    ├── rectangle.py
-    ├── triangle.py
-    └── docs
-         ├── README.md
-         └── docs.md
+    ├── docs
+        ├── README.md
+        └── docs.md
+    ├── figures
+        ├── circle.py
+        ├── square.py
+        ├── rectangle.py
+        └── triangle.py
+    └── tests
+        ├── area_test.py
+        └── perimeter_test.py
 
 Каждый из файлов circle.py, square.py, rectangle.py, triangle.py реализовывает функции area() и perimeter(), возвращающие значение площади и периметра соответствующей плоской фигуры по формулам, указанным в readme.md
 
 ### История изменения проекта:
 
-    * 316d56d (HEAD -> new_features_474386) add comments to functions      
-    * 20f9ef8 fix perimeter in rectangle.py
-    * 597b676 Add triangle.py
-    * 985270a Add rectangle.py
+    | * 7937802 (HEAD -> new_features_474386, origin/new_features_474386, origin/HEAD) create tests
+    | * 19eacf1 update structure
+    | * 1e034a5 update docs
+    | * 7a932c4 update methods
+    | * 316d56d (HEAD -> new_features_474386) add comments to functions      
+    | * 20f9ef8 fix perimeter in rectangle.py
+    | * 597b676 Add triangle.py
+    | * 985270a Add rectangle.py
     | * 86edb1c (origin/release) L-05: Update Docs. Add user agreement info
     | * 438b89a L-05: Add user agreement
     | * 6adb962 L-03: Docs added
