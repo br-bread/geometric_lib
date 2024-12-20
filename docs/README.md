@@ -1,3 +1,4 @@
+![project workflow](https://github.com/br-bread/geometric_lib/actions/workflows/main.yml/badge.svg)
 # Math formulas
 ## Area
 - Circle: S = πR²
